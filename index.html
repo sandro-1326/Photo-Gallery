@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endangered | Wildlife Portfolio</title>
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <header class="max-w-6xl mx-auto px-4 pt-10 pb-8 lg:px-8 lg:pt-16 lg:pb-12">
+        <div class="border-l-8 border-yellow-400 pl-4 lg:pl-6">
+            <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight">Endangered</h1>
+            <p class="mt-2 text-gray-300 text-base lg:text-lg max-w-xl">
+                A photographic portfolio of <strong>twelve animals</strong> listed on the
+                <mark class="bg-yellow-400 text-black px-1 rounded">IUCN Red List</mark>.
+                <small class="block mt-2 text-gray-400">Click a photo to zoom and browse more photos of that animal.</small>
+            </p>
+        </div>
+        <nav><!-- Optional filters --></nav>
+    </header>
+
+    <!-- 1 column (mobile), 2 columns (md), 3 columns (lg) -->
+    <main class="gallery max-w-6xl mx-auto px-4 pb-10 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Tiger_in_Ranthambhore.jpg" data-title="Bengal Tiger" data-latin="Panthera tigris" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tiger_in_Ranthambhore.jpg?width=1200" alt="Tiger resting in Ranthambhore" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Bengal Tiger</p>
+                <em class="text-sm text-gray-300">Panthera tigris</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Red_Panda.JPG" data-title="Red Panda" data-latin="Ailurus fulgens" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Red_Panda.JPG?width=1200" alt="Red panda on a branch" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Red Panda</p>
+                <em class="text-sm text-gray-300">Ailurus fulgens</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Cheetah4.jpg" data-title="Cheetah" data-latin="Acinonyx jubatus" data-status="Vulnerable">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah4.jpg?width=1200" alt="Cheetah in the grass" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-yellow-400 text-black">Vulnerable</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Cheetah</p>
+                <em class="text-sm text-gray-300">Acinonyx jubatus</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Lion_waiting_in_Nambia.jpg" data-title="Lion" data-latin="Panthera leo" data-status="Vulnerable">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lion_waiting_in_Nambia.jpg?width=1200" alt="Lion waiting in Namibia" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-yellow-400 text-black">Vulnerable</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Lion</p>
+                <em class="text-sm text-gray-300">Panthera leo</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.JPG" data-title="Bornean Orangutan" data-latin="Pongo pygmaeus" data-status="Critically Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.JPG?width=1200" alt="Orangutan in the forest" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-red-600 text-white">Critically Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Bornean Orangutan</p>
+                <em class="text-sm text-gray-300">Pongo pygmaeus</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Elephas_maximus_(Bandipur).jpg" data-title="Asian Elephant" data-latin="Elephas maximus" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_(Bandipur).jpg?width=1200" alt="Asian elephant in Bandipur" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Asian Elephant</p>
+                <em class="text-sm text-gray-300">Elephas maximus</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Grosser_Panda.JPG" data-title="Giant Panda" data-latin="Ailuropoda melanoleuca" data-status="Vulnerable">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Grosser_Panda.JPG?width=1200" alt="Giant panda eating" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-yellow-400 text-black">Vulnerable</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Giant Panda</p>
+                <em class="text-sm text-gray-300">Ailuropoda melanoleuca</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Polar_Bear_-_Alaska_(cropped).jpg" data-title="Polar Bear" data-latin="Ursus maritimus" data-status="Vulnerable">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Polar_Bear_-_Alaska_(cropped).jpg?width=1200" alt="Polar bear in Alaska" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-yellow-400 text-black">Vulnerable</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Polar Bear</p>
+                <em class="text-sm text-gray-300">Ursus maritimus</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg" data-title="Blue Whale" data-latin="Balaenoptera musculus" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg?width=1200" alt="Blue whale at sea" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Blue Whale</p>
+                <em class="text-sm text-gray-300">Balaenoptera musculus</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Okapi2.jpg" data-title="Okapi" data-latin="Okapia johnstoni" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Okapi2.jpg?width=1200" alt="Okapi standing" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Okapi</p>
+                <em class="text-sm text-gray-300">Okapia johnstoni</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="Gorilla_gorilla_gorilla8.jpg" data-title="Western Gorilla" data-latin="Gorilla gorilla" data-status="Critically Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_gorilla_gorilla8.jpg?width=1200" alt="Western gorilla portrait" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-red-600 text-white">Critically Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">Western Gorilla</p>
+                <em class="text-sm text-gray-300">Gorilla gorilla</em>
+            </div>
+        </div>
+        <div class="gallery-item group relative overflow-hidden rounded-lg bg-gray-800 shadow-md" data-file="African_Bush_Elephant.jpg" data-title="African Elephant" data-latin="Loxodonta africana" data-status="Endangered">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/African_Bush_Elephant.jpg?width=1200" alt="African elephant walking" loading="lazy" onerror="this.onerror=null;this.src=&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>&quot;" class="w-full h-64 object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-105">
+            <span class="absolute top-3 left-3 text-xs font-semibold px-2 py-0.5 rounded bg-orange-500 text-black">Endangered</span>
+            <div class="caption absolute bottom-0 inset-x-0 bg-black/75 border-t-4 border-yellow-400 text-white px-4 py-3 pointer-events-none">
+                <p class="font-semibold">African Elephant</p>
+                <em class="text-sm text-gray-300">Loxodonta africana</em>
+            </div>
+        </div>
+    </main>
+
+    <footer class="max-w-6xl mx-auto px-4 pb-12 lg:px-8 text-sm text-gray-400">
+        <small>Photos from Wikimedia Commons (free licences). The author and licence of each photo are shown when you enlarge it. Conservation status: IUCN Red List.</small>
+    </footer>
+
+    <!-- Lightbox overlay (hidden by default) -->
+    <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/90 flex-col items-center justify-center gap-3 p-4">
+        <span class="close absolute top-4 right-6 text-4xl text-white cursor-pointer hover:text-yellow-400">&times;</span>
+        <button id="prev" class="hidden absolute left-2 md:left-6 top-1/2 -translate-y-1/2 text-5xl text-white hover:text-yellow-400 px-2" aria-label="Previous photo">&#8249;</button>
+        <button id="next" class="hidden absolute right-2 md:right-6 top-1/2 -translate-y-1/2 text-5xl text-white hover:text-yellow-400 px-2" aria-label="Next photo">&#8250;</button>
+
+        <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[60vh] rounded">
+
+        <div class="text-center">
+            <p id="lightbox-title" class="text-lg font-semibold"></p>
+            <em id="lightbox-latin" class="block text-sm text-gray-300"></em>
+            <mark id="lightbox-status" class="inline-block mt-2 bg-yellow-400 text-black text-xs font-semibold px-2 py-0.5 rounded"></mark>
+            <p class="mt-2 text-xs text-gray-400"><span id="lightbox-count"></span> <small id="lightbox-credit" class="block"></small></p>
+        </div>
+
+        <div id="lightbox-thumbs" class="hidden flex gap-2 max-w-full overflow-x-auto pb-1"></div>
+    </div>
+
+    <script>
+        const FALLBACK = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%25' height='100%25' fill='%23374151'/><text x='50%25' y='50%25' fill='%239ca3af' font-size='40' text-anchor='middle' font-family='sans-serif'>Image not found</text></svg>";
+        const lightbox = document.getElementById('lightbox');
+        const lbImg = document.getElementById('lightbox-img');
+        const lbCount = document.getElementById('lightbox-count');
+        const lbCredit = document.getElementById('lightbox-credit');
+        const lbThumbs = document.getElementById('lightbox-thumbs');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+
+        let photos = [];      // photos of the animal currently open
+        let idx = 0;          // photo currently shown
+        let openToken = 0;    // avoids mixing results if you open another animal quickly
+        const cache = {};     // one request per animal
+
+        lbImg.onerror = () => { lbImg.src = FALLBACK; };
+
+        // ---- Wikimedia Commons API (finds more photos of the species) ----
+        function stripHtml(html) {
+            return new DOMParser().parseFromString(html || '', 'text/html').body.textContent.trim();
+        }
+
+        async function api(params) {
+            const url = 'https://commons.wikimedia.org/w/api.php?' + new URLSearchParams({
+                action: 'query', format: 'json', origin: '*', prop: 'imageinfo',
+                iiprop: 'url|size|mime|extmetadata', iiurlwidth: '1200',
+                iiextmetadatafilter: 'Artist|LicenseShortName', ...params
+            });
+            const res = await fetch(url);
+            const data = await res.json();
+            return Object.values((data.query && data.query.pages) || {});
+        }
+
+        function toPhoto(page) {
+            const info = page.imageinfo && page.imageinfo[0];
+            if (!info) return null;
+            const meta = info.extmetadata || {};
+            const credit = [stripHtml(meta.Artist && meta.Artist.value), meta.LicenseShortName && meta.LicenseShortName.value]
+                .filter(Boolean).join(' · ') || 'Wikimedia Commons';
+            return {
+                file: page.title.replace('File:', '').replace(/ /g, '_'),
+                src: info.thumburl || info.url, width: info.width, mime: info.mime,
+                index: page.index || 0, credit
+            };
+        }
+
+        function loadPhotos(item) {
+            const latin = item.dataset.latin;
+            if (!cache[latin]) {
+                cache[latin] = (async () => {
+                    const [mainPages, searchPages] = await Promise.all([
+                        api({ titles: 'File:' + item.dataset.file }).catch(() => []),
+                        api({ generator: 'search', gsrnamespace: '6', gsrsearch: `"${latin}" filetype:bitmap`, gsrlimit: '20' }).catch(() => [])
+                    ]);
+                    const main = mainPages.map(toPhoto).filter(Boolean);
+                    const extra = searchPages.map(toPhoto)
+                        .filter(p => p && p.mime === 'image/jpeg' && p.width >= 900 && !main.some(m => m.file === p.file))
+                        .sort((a, b) => a.index - b.index)
+                        .slice(0, 4);
+                    return [...main, ...extra];
+                })();
+            }
+            return cache[latin];
+        }
+
+        // ---- Lightbox ----
+        function renderThumbs() {
+            lbThumbs.innerHTML = '';
+            photos.forEach((p, i) => {
+                const t = document.createElement('img');
+                t.src = p.src;
+                t.alt = '';
+                t.className = 'w-16 h-12 object-cover rounded border-2 cursor-pointer';
+                t.addEventListener('click', () => show(i));
+                lbThumbs.appendChild(t);
+            });
+            const multi = photos.length > 1;
+            [prevBtn, nextBtn, lbThumbs].forEach(el => el.classList.toggle('hidden', !multi));
+        }
+
+        function show(i) {
+            idx = i;
+            lbImg.src = photos[i].src;
+            lbCount.textContent = photos.length > 1 ? `Photo ${i + 1} / ${photos.length}` : '';
+            lbCredit.textContent = 'Photo: ' + photos[i].credit;
+            [...lbThumbs.children].forEach((t, n) => {
+                t.classList.toggle('border-yellow-400', n === i);
+                t.classList.toggle('border-transparent', n !== i);
+                t.classList.toggle('opacity-60', n !== i);
+            });
+        }
+
+        function step(d) {
+            if (photos.length > 1) show((idx + d + photos.length) % photos.length);
+        }
+
+        function openLightbox(item) {
+            const token = ++openToken;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.getElementById('lightbox-title').textContent = item.dataset.title;
+            document.getElementById('lightbox-latin').textContent = item.dataset.latin;
+            document.getElementById('lightbox-status').textContent = item.dataset.status;
+
+            // show the clicked photo right away...
+            photos = [{ src: item.querySelector('img').src, credit: 'Wikimedia Commons' }];
+            renderThumbs();
+            show(0);
+
+            // ...then add the other photos of the same animal when they arrive
+            loadPhotos(item).then(list => {
+                if (token !== openToken || !list.length) return;
+                photos = list;
+                renderThumbs();
+                show(0);
+            });
+        }
+
+        function closeLightbox() {
+            openToken++;
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+        }
+
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.querySelector('img').addEventListener('click', () => openLightbox(item));
+        });
+        prevBtn.addEventListener('click', () => step(-1));
+        nextBtn.addEventListener('click', () => step(1));
+        document.querySelector('.close').addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+        document.addEventListener('keydown', e => {
+            if (lightbox.classList.contains('hidden')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') step(-1);
+            if (e.key === 'ArrowRight') step(1);
+        });
+    </script>
+</body>
+</html>
